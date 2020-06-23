@@ -1,0 +1,17 @@
+{
+  "name": "vue3-alpha-taste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xfz1987/vue3-alpha-taste.git",
+  "author": "gaozifeng <gaozifeng@didiglobal.com>",
+  "license": "MIT",
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.34",
+    "husky": "^4.2.5",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
