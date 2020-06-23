@@ -5,6 +5,9 @@
   "repository": "https://github.com/xfz1987/vue3-alpha-taste.git",
   "author": "gaozifeng <gaozifeng@didiglobal.com>",
   "license": "MIT",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
   "devDependencies": {
     "conventional-changelog-cli": "^2.0.34",
     "husky": "^4.2.5",
@@ -12,8 +15,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "validate-commit-msg",
-      "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+      "commit-msg": "validate-commit-msg"
     }
   }
 }
